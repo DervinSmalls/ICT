@@ -1,0 +1,168 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.vertical-center {
+	display: grid;
+	place-content: center;
+}
+
+.header-footer-color {
+  background-color: #970c10;
+}
+
+.background-color {
+  background-color: #a4312b;
+}
+
+.background-color2 {
+  background-color: #97241f;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #970c10;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+  }
+
+.parallax-container2 {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container2 .section {
+    width: 100%;
+  }
+
+.img-profile {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* text code */
+
+.a {
+  font-size: 125%;
+  color: #f7e8e6;
+}
+
+h4 {
+  color: #f7e8e6;
+}
+
+h5 {
+  color: #f7e8e6;
+}
+
+p {
+  font-size: 125%;
+  color: #f7e8e6;
+}
+
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vina-sans-regular {
+  font-family: "Vina Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mohave-regular {
+  font-family: "Mohave", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.title-text {
+  color: #000000 !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+.subtitle-text {
+  color: #000000 !important;
+}
+
+.img-width {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .img-width {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .img-width {
+    max-width: 5%;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+footer.page-footer {
+  margin: 0;
+}
