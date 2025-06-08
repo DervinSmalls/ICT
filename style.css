@@ -11,11 +11,6 @@ nav .brand-logo {
   color: #444;
 }
 
-.vertical-center {
-	display: grid;
-	place-content: center;
-}
-
 .header-footer-color {
   background-color: #970c10;
 }
@@ -33,7 +28,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #970c10;
+  color: #f7e8e6;
 }
 
 .parallax-container {
