@@ -64,6 +64,19 @@ p {
 .a {
   font-size: 125%;
   color: #f7e8e6;
+  font-family: "Mohave", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 50px;
+  }
 }
 
 h4 {
@@ -79,40 +92,22 @@ p {
   color: #f7e8e6;
 }
 
-.passion-one-regular {
-  font-family: "Passion One", sans-serif;
+.header-font {
+  font-family: "candal", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.passion-one-bold {
-  font-family: "Passion One", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.passion-one-black {
-  font-family: "Passion One", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.anton-sc-regular {
-  font-family: "Anton SC", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.vina-sans-regular {
-  font-family: "Vina Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.mohave-regular {
+.body-font {
   font-family: "Mohave", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-style: normal;
+}
+
+.subtitle-font {
+  font-family: "Mohave", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -128,6 +123,18 @@ p {
 
 .img-width {
   width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  #abby-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  #abby-mobile {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) {
