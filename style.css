@@ -12,15 +12,15 @@ nav .brand-logo {
 }
 
 .header-footer-color {
-  background-color: #970c10;
+  background-color: #ffffff;
 }
 
 .background-color {
-  background-color: #a4312b;
+  background-color: #ffffff
 }
 
 .background-color2 {
-  background-color: #97241f;
+  background-color: #f85646
 }
 
 p {
@@ -28,7 +28,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #f7e8e6;
+  color: #000000;
 }
 
 .parallax-container {
@@ -59,11 +59,30 @@ p {
   object-fit: cover;
 }
 
+#support_box {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.temp_board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px){
+  .temp_board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+}
+
 /* text code */
 
 .a {
   font-size: 125%;
-  color: #f7e8e6;
+  color: #000000;
   font-family: "Mohave", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -79,17 +98,9 @@ h1 {
   }
 }
 
-h4 {
-  color: #f7e8e6;
-}
-
-h5 {
-  color: #f7e8e6;
-}
 
 p {
   font-size: 125%;
-  color: #f7e8e6;
 }
 
 .header-font {
@@ -104,6 +115,11 @@ p {
   font-style: normal;
 }
 
+.button_format {
+  background-color: #46f856;
+  color: black;
+}
+
 .subtitle-font {
   font-family: "Mohave", sans-serif;
   font-optical-sizing: auto;
@@ -112,26 +128,62 @@ p {
 }
 
 .title-text {
-  color: #000000 !important;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #ffffff;
-}
-
-.subtitle-text {
-  color: #000000 !important;
+  color: #46e8f8 !important;
 }
 
 .img-width {
   width: 100%;
 }
 
-@media screen and (max-width: 750px) {
+.blue-box {
+  background-color: #46e8f8;
+}
+
+.pink-box {
+  background-color: #f846e8;
+}
+
+.green-box {
+  background-color: #46f856;
+}
+
+.profile-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+.profile-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+}
+.profile-col1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: center;
+}
+
+.profile-name {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 800px) {
   #abby-desktop {
     display: none;
   }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
   #abby-mobile {
     display: none;
   }
