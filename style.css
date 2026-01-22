@@ -147,6 +147,10 @@ p {
   background-color: #46f856;
 }
 
+.yellow-box {
+  background-color: #E9E579;
+}
+
 .profile-row1 {
   display: flex;
   flex-direction: row;
@@ -178,13 +182,13 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-  #abby-desktop {
+  #right-profile-desktop {
     display: none;
   }
 }
 
 @media screen and (min-width: 800px) {
-  #abby-mobile {
+  #right-profile-mobile {
     display: none;
   }
 }
